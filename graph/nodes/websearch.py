@@ -26,5 +26,6 @@ def web_search(state: GraphState)->Dict[str, Any]:
     return {"documents": documents, "question": question}
 
 if __name__=="__main__":
-    web_search(state={"question": "agent memory", "documents": None})
+    # web_search(state={"question": "agent memory", "documents": None})
+    print("\n")
 
